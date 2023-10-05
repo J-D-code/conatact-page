@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <header>
+      <span class="glow-ball"></span>
+      <h1 class="invsible">< h1 ></h1>
+      <h1>Enlighten me with a message</h1>
+      <h1 class="invsible">< / h1></h1>
+
+      <h1 class="invsible">< button ></h1>
+      <br />
+      <h1 class="btn" form="form">
+        <i class="fa-solid fa-paper-plane"></i>
+        Send a message
+      </h1>
+
+      <h1 class="invsible">< /button ></h1>
+    </header>
+    <main id="contact">
+      <form
+        class="user-info"
+        onSubmit=""
+        id="form"
+        action="https://formsubmit.co/edb07c24d42bbe01581c4a0f6a177290"
+        method="POST"
+      >
+        <label for="name"><i class="fa-solid fa-signature"></i></label>
+        <input
+          type="text"
+          placeholder="Enter Name"
+          name="name"
+          pattern="[a-zA-Z]*"
+          autocomplete="on"
+          required
+        />
+        <label for="email"><i class="fa-regular fa-envelope"></i></label>
+        <input
+          type="text"
+          placeholder="Enter Email"
+          name="email"
+          autocomplete="off"
+          pattern="[a-zA-Z]*@.[a-zA-Z]*.*"
+          required
+        />
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Enter Message"
+          rows="6"
+          pattern="[\w-]"
+          required
+        ></textarea>
+      </form>
+    </main>
+    <footer>
+      <h1>My social media info</h1>
+      <p>
+        copyright © 2023 made by CodePro with<i class="fa-solid fa-heart"></i>
+      </p>
+      <section class="my-info">
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-square-github"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <!--codePro doesn't have insta yet-->
+      </section>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

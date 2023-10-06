@@ -34,7 +34,6 @@
     <main id="contact">
       <form
         class="user-info"
-        onSubmit=""
         id="form"
         action="https://formsubmit.co/edb07c24d42bbe01581c4a0f6a177290"
         method="POST"
@@ -47,7 +46,7 @@
           id="name"
           pattern="[a-zA-Z]*"
           autocomplete="on"
-          required
+          required="true"
         />
         <label for="email"><i class="fa-regular fa-envelope"></i></label>
         <input
@@ -57,7 +56,7 @@
           id="email"
           autocomplete="off"
           pattern="[a-zA-Z]*.@.[a-zA-Z]*.*"
-          required
+          required="true"
         />
         <textarea
           name="message"
@@ -65,7 +64,7 @@
           placeholder="Enter Message"
           rows="6"
           pattern="[\w-]"
-          required
+          required="true"
         ></textarea>
       </form>
     </main>

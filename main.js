@@ -19,6 +19,6 @@ const Email = document.getElementById('email');
             }
           
                 
-        }, 3000);
         ball.classList.remove('animate');
+        }, 3000);
     });``

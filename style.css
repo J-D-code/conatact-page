@@ -73,7 +73,7 @@ header :not(.invsible){
             border:2px solid red;
     }
     50%{
-        transform:translateX(100px)
+        transform:translateX(100px);
             border:2px solid red;
     }
     75%{

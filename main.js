@@ -9,10 +9,7 @@ const Email = document.getElementById('email');
 
 
     button.addEventListener('click' , () =>{
-            setInterval(() =>{
             ball.classList.add('animate');  
-            
-            }, 1);
             setTimeout( () =>{ 
             if(Name.value && Email.value && Message.value){
                 form.submit();

@@ -66,24 +66,24 @@ header :not(.invsible){
 @keyframes invalid {
     from{
         transform:translateX(0);
-            border:2px solid red;
+
     }
     25%{
         transform:translateX(-50px);
-            border:2px solid red;
+
     }
     50%{
         transform:translateX(100px);
-            border:2px solid red;
+
     }
     75%{
         transform:translateX(-50px);
-            border:2px solid red;
+
     }
 
     to{
         transform:translateX(100px);
-            border:2px solid red;
+
     }
 }
 /* make it that when user hovers over send message button the top globall does a lighting up glow effect */
@@ -187,4 +187,5 @@ footer p i{
 
 input:invalid, textarea:invalid{
     animation: invalid 250ms linear 1;
+    border:2px solid red;   
 }

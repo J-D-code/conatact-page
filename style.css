@@ -14,7 +14,6 @@ body{
 .invsible{
     font-family: 'Dancing Script', cursive ;
     font-size: 30px;
-    grid-column: 1;
     justify-content: start;
     opacity:0.6;
 }
